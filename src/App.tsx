@@ -10,21 +10,21 @@ const artists: Artist[] = [
   {
     id: 1,
     name: "Victoria Blackwood",
-    specialty: "Gothic & Dark Art",
+    specialty: "Neo-Traditional & Realism",
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80",
     bio: "Specializing in haunting gothic designs and intricate dark art pieces.",
   },
   {
     id: 2,
     name: "Marcus Ravencroft",
-    specialty: "Traditional & Neo-Gothic",
+    specialty: "Traditional & Realism",
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80",
     bio: "Blending traditional tattoo styles with gothic architecture elements.",
   },
   {
     id: 3,
     name: "Luna Nightshade",
-    specialty: "Blackwork & Ornamental",
+    specialty: "Blackwork",
     image: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80",
     bio: "Creating bold blackwork designs with intricate ornamental details.",
   },
@@ -36,9 +36,9 @@ function App() {
   return (
     <div className="min-h-screen bg-black/90">
       <Navbar />
-      
+
       {/* Hero Section */}
-      <motion.section 
+      <motion.section
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         className="relative h-screen flex items-center justify-center text-center px-4"
@@ -55,7 +55,7 @@ function App() {
               Dark Arts Tattoo
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 max-w-2xl mx-auto">
-              Where Gothic Elegance Meets Skin Art
+              Where Elegance Meets Skin Art
             </p>
           </motion.div>
         </div>
