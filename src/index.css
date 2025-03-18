@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-black text-gray-100;
+    background-image: url('https://images.unsplash.com/photo-1533134486753-c833f0ed4866?auto=format&fit=crop&q=80');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
+}
+
+@layer components {
+  .nav-link {
+    @apply relative text-gray-300 hover:text-gold transition-colors duration-300;
+  }
+  
+  .nav-link::after {
+    @apply content-[''] absolute left-0 bottom-0 w-0 h-[1px] bg-gold transition-all duration-300;
+  }
+  
+  .nav-link:hover::after {
+    @apply w-full;
+  }
+
+  .btn-primary {
+    @apply px-6 py-3 bg-gold/20 hover:bg-gold/30 border border-gold/50 text-gold 
+           rounded-md transition-all duration-300 hover:shadow-[0_0_15px_rgba(218,165,32,0.3)];
+  }
+
+  .input-field {
+    @apply w-full bg-black/50 border border-gold/30 rounded px-4 py-2 text-gray-100
+           focus:border-gold focus:outline-none focus:ring-1 focus:ring-gold/50
+           placeholder:text-gray-500;
+  }
+}
+
+@layer utilities {
+  .text-gold {
+    color: #DAA520;
+  }
+  
+  .bg-gold {
+    background-color: #DAA520;
+  }
+  
+  .border-gold {
+    border-color: #DAA520;
+  }
+}
