@@ -95,7 +95,7 @@ function App() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-8 md:mb-0">
               <h3 className="font-gothic text-2xl text-gold mb-4">Dark Arts Tattoo</h3>
-              <p className="text-gray-400">Where darkness meets artistry</p>
+              <p className="text-gray-400">Where Elegance Meets Skin Art</p>
             </div>
             <div className="flex space-x-6">
               <a href="#" className="text-gray-400 hover:text-gold transition-colors">
