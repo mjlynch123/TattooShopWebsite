@@ -12,7 +12,7 @@ const artists: Artist[] = [
     name: "Victoria Blackwood",
     specialty: "Neo-Traditional & Realism",
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80",
-    bio: "Specializing in Neo-Traditional designs and intricate rRalism pieces.",
+    bio: "Specializing in Neo-Traditional designs and intricate Realism pieces.",
   },
   {
     id: 2,
