@@ -12,21 +12,21 @@ const artists: Artist[] = [
     name: "Victoria Blackwood",
     specialty: "Neo-Traditional & Realism",
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80",
-    bio: "Specializing in haunting gothic designs and intricate dark art pieces.",
+    bio: "Specializing in Neo-Traditional designs and intricate rRalism pieces.",
   },
   {
     id: 2,
     name: "Marcus Ravencroft",
     specialty: "Traditional & Realism",
     image: "https://images.unsplash.com/photo-1587397845856-e6cf49176c70?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    bio: "Blending traditional tattoo styles with gothic architecture elements.",
+    bio: "Blending traditional tattoo styles with Realistic architectural elements.",
   },
   {
     id: 3,
     name: "Luna Nightshade",
     specialty: "Blackwork",
     image: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80",
-    bio: "Creating bold blackwork designs with intricate ornamental details.",
+    bio: "Creating bold blackwork designs with intricate details.",
   },
 ];
 
