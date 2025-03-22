@@ -18,7 +18,7 @@ const artists: Artist[] = [
     id: 2,
     name: "Marcus Ravencroft",
     specialty: "Traditional & Realism",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1587397845856-e6cf49176c70?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     bio: "Blending traditional tattoo styles with gothic architecture elements.",
   },
   {
